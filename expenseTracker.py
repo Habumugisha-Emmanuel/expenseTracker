@@ -12,7 +12,7 @@ def add_expense():
     }
 
     expenses.append(expense)
-    print("✅ Expense added!")
+    print(" Expense added!")
 
 def view_expenses():
     if not expenses:
@@ -37,7 +37,7 @@ def main():
         elif choice == "2":
             view_expenses()
         elif choice == "3":
-            print("👋 Goodbye!")
+            print(" Program Exited !")
             break
         else:
             print("Invalid choice!")
